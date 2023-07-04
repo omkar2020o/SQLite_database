@@ -1,0 +1,15 @@
+Android SQLite Database Tutorial
+
+>SQLite is an open source database
+>SQLite support standard relational database features.
+>Android comes in with build in SQLite database implementation.
+>To create and upgrade a database in your Android application you create a subclass of the
+ "SQLiteOpenHelper" class. in the constructor of your subclass you call the super() method of SQLiteOpenHelper
+
+
+Student.db database name
+
+
+Cursor--- this interface provides ramdom read-write access to the result set returned by the a database
+
+delete()-- delete the row
